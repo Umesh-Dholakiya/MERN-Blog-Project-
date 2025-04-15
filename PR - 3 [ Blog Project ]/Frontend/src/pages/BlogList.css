@@ -1,0 +1,95 @@
+.main-content {
+    padding: 24px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .blog-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .blog-table thead {
+    background-color: #f3f3f3;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .blog-table th,
+  .blog-table td {
+    padding: 12px 20px;
+    text-align: left;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .blog-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .author-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .author-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .delete-cell {
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .action-cell {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .edit-icon, .delete-icon {
+    color: #555;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+  }
+  
+  .edit-icon:hover {
+    color: #007bff;
+  }
+  
+  .delete-icon:hover {
+    color: #dc3545;
+  }
+  
+  .author-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .author-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
