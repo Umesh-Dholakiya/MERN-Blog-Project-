@@ -1,0 +1,364 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+/* ---------- HEADER ---------- */
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container img {
+  height: 40px;
+  width: auto;
+}
+
+.logo-container span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ---------- Get Started Button ---------- */
+.get-started-btn {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  border: 2px solid #000;
+  background-color: #fff;
+  box-shadow: 4px 4px 0px #000;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.get-started-btn:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: none;
+}
+
+/* ----------- LATEST BLOG ----------- */
+
+.latest-blogs {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.latest-blogs h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.latest-blogs p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* -------- Email Input + Subscribe Button -------- */
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  box-shadow: 4px 4px 0px #000;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.subscribe-box input[type="email"] {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-right: none;
+  outline: none;
+  width: 300px;
+}
+
+.subscribe-box button {
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscribe-box button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* -------- Category Filters -------- */
+.category-filters {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+
+.category-filters button {
+  padding: 6px 16px;
+  font-size: 15px;
+  border: 1px solid #000;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-filters button.active,
+.category-filters button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+/* ----------- BLOG CARDS ----------- */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 24px;
+  justify-content: left;
+
+}
+
+/* ----------- FOOTER ----------- */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 30px;
+  font-size: 15px;
+  border-top: 1px solid #ddd;
+}
+
+
+/* Forget password css  */
+
+.main_about {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.About_container {
+  max-width: 1536px;
+  margin: 20px auto;
+}
+
+/* About Us Section */
+.about-section {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  height: 250px;
+  background: url("./src/assets/about_1.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.About_container h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Blog About Section */
+.netflixo-section {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.left-About_container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-content {
+  margin-bottom: 20px;
+}
+
+.text-content h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.text-content p {
+  font-size: 0.875rem;
+  color: #000;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+/* Stats Container */
+.stats-About_container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background-color: #000;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  flex: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card span {
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.stat-card h4 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.stat-card p {
+  font-size: 0.875rem;
+  color: rgb(192, 192, 192);
+}
+
+/* Right Image Container */
+.right-About_container {
+  flex: 1;
+  
+}
+
+.image-About_container img {
+  width: 100%;
+  max-width: 100%;
+  height: 560px;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .netflixo-section {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .left-About_container,
+  .right-About_container {
+      width: 100%;
+  }
+
+  .text-content h1 {
+      font-size: 1.5rem;
+  }
+
+  .text-content p {
+      font-size: 0.9rem;
+  }
+
+  .stats-About_container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .stat-card {
+      width: 90%;
+      text-align: left;
+  }
+
+  .image-About_container {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text-content h1 {
+      font-size: 1.2rem;
+  }
+
+  .text-content p {
+      font-size: 0.8rem;
+  }
+
+  .stat-card span {
+      font-size: 1.2rem;
+  }
+
+  .stat-card h4 {
+      font-size: 0.9rem;
+  }
+}
+
+.extra-content {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.extra-content h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.extra-content p {
+  font-size: 15px;
+  color: #000;
+  line-height: 2;
+  font-weight: 400;
+}
