@@ -26,11 +26,11 @@ A full-featured blog application built using the MERN stack (MongoDB, Express, R
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Axios, React Router, React Toastify, CSS
+- **Frontend:** React.js, Fetch, React Router, React Toastify, CSS
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose
 - **Authentication:** JWT (JSON Web Token)
 - **File Uploads:** Cloudinary, Multer
-- **Database:** MongoDB Atlas
+- **Database:** MongoDB Compass
 
 ---
 
