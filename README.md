@@ -17,8 +17,11 @@ A full-featured blog application built using the MERN stack (MongoDB, Express, R
 ## 📸 Screenshots
 
 [Homepage](https://res.cloudinary.com/djmribqmd/image/upload/v1747326565/Homepage_jgnvve.png) 
+
 [Dashboard](https://res.cloudinary.com/djmribqmd/image/upload/v1747326553/Dashboard_qjlwsb.png)
+
 [Create Blog](https://res.cloudinary.com/djmribqmd/image/upload/v1747326553/Create-Blog_s8r8mp.png)
+
 ---
 
 ## 🛠️ Tech Stack
